@@ -4,6 +4,6 @@ SerialPin.USB_RX,
 BaudRate.BaudRate115200
 )
 basic.forever(function () {
-    serial.writeString("Hello!")
+    serial.writeLine("Hello!")
     basic.pause(2000)
 })
