@@ -1,6 +1,6 @@
 serial.redirect(
-SerialPin.USB_TX,
-SerialPin.USB_RX,
+SerialPin.P0,
+SerialPin.P1,
 BaudRate.BaudRate115200
 )
 basic.forever(function () {
